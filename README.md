@@ -1,29 +1,22 @@
-# Hi, I'm Vanessa Lu 👋
+[Projects 5b5944b287f14d9597d6feaa988fde6d.md](https://github.com/user-attachments/files/24722489/Projects.5b5944b287f14d9597d6feaa988fde6d.md)
+# Projects
 
-🎓 **Computer Science Student**
-💻 Passionate about software development, problem-solving, and building useful things with code.
+Digital Fridge Friend
 
-## 👩‍💻 About Me
+**Problem & Motivation**
 
-* Studying **Computer Science**
-* Interested in programming, algorithms, and practical applications
-* Always learning and improving my skills
+People often struggle to decide what to cook with ingredients they already have—especially when considering dietary restrictions, time constraints, or personal preferences. Traditional recipe searches are time-consuming and poorly adapted to individual needs.
 
-## 🛠️ Skills
+**Use Case**
 
-* Programming fundamentals
-* Problem solving & logical thinking
-* Working with code, projects, and version control (Git/GitHub)
+Digital Fridge Friend (DFF) helps users quickly find suitable recipes based on available ingredients, preferences, and goals. It's designed for everyday use to simplify meal planning, reduce food waste, and support healthier, more efficient cooking decisions.
 
-## 📚 Currently Learning
+**Why This Project Was Made**
 
-* Advanced computer science concepts
-* Writing cleaner, more efficient code
+This project explores how intelligent, personalized interfaces can improve everyday tasks. The goal was to design and evaluate a user-friendly system that adapts to diverse needs while maintaining clarity and usability.
 
-## 📫 Get in Touch
+**What I Learned**
 
-* GitHub: **@vpyl**
+I learned how to apply user-centered design methods, conduct usability testing, and interpret user feedback. I also gained experience in prototyping, evaluating interface decisions, and iterating designs based on real user behavior and accessibility considerations.
 
----
-
-⭐ Feel free to check out my repositories and follow my journey!
+[https://www.figma.com/proto/Bg5MYGYNPbXWQZFokO3eDY/DFF?node-id=0-1&t=4OEnm55uT02KEY48-1](https://www.figma.com/proto/Bg5MYGYNPbXWQZFokO3eDY/DFF?node-id=0-1&t=4OEnm55uT02KEY48-1)
