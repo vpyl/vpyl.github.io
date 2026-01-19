@@ -1,4 +1,16 @@
-[Projects 5b5944b287f14d9597d6feaa988fde6d.md](https://github.com/user-attachments/files/24722489/Projects.5b5944b287f14d9597d6feaa988fde6d.md)
+# Hello, I'm Vanessa Lu
+
+**Computer Science Student**
+Passionate about software development, problem-solving, and building useful things with code.
+
+## About Me
+
+* Studying **Computer Science**
+* Interested in programming, algorithms, and practical applications
+* Always learning and improving my skills
+
+## Skills
+
 # Projects
 
 Digital Fridge Friend
@@ -20,3 +32,6 @@ This project explores how intelligent, personalized interfaces can improve every
 I learned how to apply user-centered design methods, conduct usability testing, and interpret user feedback. I also gained experience in prototyping, evaluating interface decisions, and iterating designs based on real user behavior and accessibility considerations.
 
 [https://www.figma.com/proto/Bg5MYGYNPbXWQZFokO3eDY/DFF?node-id=0-1&t=4OEnm55uT02KEY48-1](https://www.figma.com/proto/Bg5MYGYNPbXWQZFokO3eDY/DFF?node-id=0-1&t=4OEnm55uT02KEY48-1)
+
+
+* GitHub: **@vpyl**
