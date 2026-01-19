@@ -1,12 +1,12 @@
 # Hello, I'm Vanessa Lu
 
 **Computer Science Student**
-Passionate about software development, problem-solving, and building useful things with code.
+Passionate about software development, problem-solving, UX, and human-centered computing
 
 ## About Me
 
 * Studying **Computer Science**
-* Interested in programming, algorithms, and practical applications
+* Hobbys: Travelling, Music and Art
 * Always learning and improving my skills
 
 ## Skills
