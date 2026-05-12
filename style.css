@@ -340,6 +340,128 @@ footer p {
   margin: 0;
   font-size: 14px;
 }
+/* Theme toggle */
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.theme-toggle {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid #ddd5c7;
+  background: white;
+  color: #242424;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-1px);
+}
+
+/* Dark mode */
+
+body.dark-mode {
+  color: #f4efe7;
+  background: #171717;
+}
+
+body.dark-mode .logo {
+  color: #f4efe7;
+}
+
+body.dark-mode .nav-links a {
+  color: #cfc7ba;
+}
+
+body.dark-mode .nav-links a:hover {
+  color: white;
+}
+
+body.dark-mode .eyebrow {
+  color: #d7b879;
+}
+
+body.dark-mode .hero-description,
+body.dark-mode .large-text,
+body.dark-mode .intro-section p,
+body.dark-mode .split-section p,
+body.dark-mode .clean-list li,
+body.dark-mode .contact-section p {
+  color: #d4d0c8;
+}
+
+body.dark-mode .section,
+body.dark-mode .intro-section,
+body.dark-mode .contact-section,
+body.dark-mode footer {
+  border-color: #333;
+}
+
+body.dark-mode .info-card,
+body.dark-mode .process-card,
+body.dark-mode .contact-links a {
+  background: #222;
+  border-color: #333;
+  color: #f4efe7;
+}
+
+body.dark-mode .info-card p,
+body.dark-mode .process-card p {
+  color: #cfc7ba;
+}
+
+body.dark-mode .secondary-button {
+  background: #222;
+  color: #f4efe7;
+  border-color: #444;
+}
+
+body.dark-mode .primary-button {
+  background: #f4efe7;
+  color: #171717;
+}
+
+body.dark-mode .screen-placeholder {
+  background: #242424;
+  border-color: #555;
+  color: #d7b879;
+}
+
+body.dark-mode .small-note,
+body.dark-mode footer {
+  color: #aaa;
+}
+
+body.dark-mode .text-link {
+  color: #f4efe7;
+  border-bottom-color: #d7b879;
+}
+
+body.dark-mode .text-link:hover {
+  color: #d7b879;
+}
+
+body.dark-mode .contact-links a:hover {
+  background: #f4efe7;
+  color: #171717;
+}
+
+body.dark-mode .theme-toggle {
+  background: #222;
+  color: #f4efe7;
+  border-color: #444;
+}
+
+
+
 
 /* Responsive design */
 
@@ -375,6 +497,12 @@ footer p {
   .nav-links {
     gap: 14px;
     flex-wrap: wrap;
+  }
+  
+  .nav-right {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
   }
 
   .hero {
