@@ -461,7 +461,42 @@ body.dark-mode .theme-toggle {
 }
 
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
 
+.project-card {
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--card-background);
+}
+
+.project-image-placeholder {
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--muted-background);
+}
+
+.project-card-content {
+  padding: 1.5rem;
+}
+
+.project-card h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
 /* Responsive design */
 
