@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Vanessa Lu | UX Portfolio</title>
+  <title>Vanessa Lu | Portfolio</title>
   <meta 
     name="description" 
-    content="Portfolio of Vanessa Lu, Computer Science student interested in HCI, UX and product design."
+    content="Portfolio of Vanessa Lu, Computer Science student interested in HCI, UX, product design, and creative coding."
   />
 
   <link rel="stylesheet" href="style.css" />
@@ -15,40 +15,42 @@
 
 <body>
 
-<nav class="navbar">
-  <a href="#" class="logo">Vanessa Lu</a>
+  <nav class="navbar">
+    <a href="#" class="logo">Vanessa Lu</a>
 
-  <div class="nav-right">
-    <div class="nav-links">
-      <a href="#project">Project</a>
-      <a href="#process">Process</a>
-      <a href="#learning">Learning</a>
-      <a href="#contact">Contact</a>
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark mode">
+        🌙
+      </button>
     </div>
-
-    <button class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark mode">
-      🌙
-    </button>
-  </div>
-</nav>
+  </nav>
 
   <header class="hero">
     <img 
       src="src/images/header-image.jpg" 
-      alt="Japanese landscape artwork used as a header image" 
+      alt="Portfolio header image" 
       class="hero-image"
     />
 
     <div class="hero-content">
-      <p class="eyebrow">UX / HCI Case Study</p>
-      <h1>Digital Fridge Friend</h1>
+      <p class="eyebrow">Computer Science / UX / HCI</p>
+      <h1>Hi, I’m Vanessa Lu.</h1>
+
       <p class="hero-description">
-        A digital recipe assistant that helps users decide what to cook based on
-        the ingredients they already have, their preferences, and everyday cooking needs.
+        I’m a Computer Science student at TU Berlin interested in Human-Computer
+        Interaction, UX design, product thinking, and creative coding. I enjoy
+        designing digital experiences that are clear, useful, and enjoyable to use.
       </p>
 
       <div class="hero-buttons">
-        <a href="#project" class="button primary-button">View case study</a>
+        <a href="#projects" class="button primary-button">View my projects</a>
         <a href="#contact" class="button secondary-button">Contact me</a>
       </div>
     </div>
@@ -56,22 +58,86 @@
 
   <main>
 
-    <section class="intro-section">
+    <section id="about" class="intro-section">
       <div>
-        <p class="eyebrow">Portfolio</p>
-        <h2>Hi, I’m Vanessa.</h2>
+        <p class="eyebrow">About Me</p>
+        <h2>Designing with both logic and empathy.</h2>
       </div>
 
       <p>
-        I am a Computer Science student at TU Berlin with an interest in
-        Human-Computer Interaction, UX research, product design, prototyping,
-        and usability testing. This website presents one of my university projects
-        as a small UX case study.
+        I am a Computer Science student with a strong interest in UX, HCI,
+        product design, and interactive systems. My background helps me understand
+        both the technical side of digital products and the human side of how people
+        use them.
       </p>
     </section>
 
-    <section id="project" class="section">
-      <p class="eyebrow">Featured Project</p>
+    <section id="projects" class="section">
+      <p class="eyebrow">Projects</p>
+      <h2>Selected work</h2>
+
+      <p class="large-text">
+        A collection of projects that show my interest in UX design, product thinking,
+        creative coding, and interactive experiences.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-image-placeholder">
+            <p>Add image here</p>
+          </div>
+
+          <div class="project-card-content">
+            <p class="eyebrow">UX / HCI / Product Design</p>
+            <h3>Digital Fridge Friend</h3>
+
+            <p>
+              A digital recipe assistant that helps users decide what to cook based on
+              ingredients they already have, preferences, and everyday cooking needs.
+            </p>
+
+            <ul class="clean-list">
+              <li>UX research</li>
+              <li>User flows</li>
+              <li>Figma prototype</li>
+              <li>Usability-focused design</li>
+            </ul>
+
+            <a href="#fridge-friend" class="text-link">View project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-image-placeholder">
+            <p>Add image here</p>
+          </div>
+
+          <div class="project-card-content">
+            <p class="eyebrow">Unity / C# / Game Design</p>
+            <h3>Top-Down Labyrinth Game</h3>
+
+            <p>
+              A simple top-down labyrinth game made in Unity, focusing on player
+              movement, level design, collision, and basic gameplay logic.
+            </p>
+
+            <ul class="clean-list">
+              <li>Unity development</li>
+              <li>C# scripting</li>
+              <li>Level design</li>
+              <li>Game mechanics</li>
+            </ul>
+
+            <a href="#labyrinth-game" class="text-link">View project</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="fridge-friend" class="section">
+      <p class="eyebrow">Featured UX Project</p>
       <h2>Digital Fridge Friend</h2>
 
       <p class="large-text">
@@ -136,7 +202,7 @@
       </div>
     </section>
 
-    <section id="process" class="section">
+    <section class="section">
       <p class="eyebrow">Design Process</p>
       <h2>From idea to prototype</h2>
 
@@ -212,7 +278,7 @@
 
     <section class="section">
       <p class="eyebrow">Screens</p>
-      <h2>Project visuals</h2>
+      <h2>Digital Fridge Friend visuals</h2>
 
       <div class="screens-grid">
         <div class="screen-placeholder">
@@ -233,10 +299,10 @@
       </p>
     </section>
 
-    <section id="learning" class="section split-section">
+    <section class="section split-section">
       <div>
         <p class="eyebrow">Reflection</p>
-        <h2>What I learned</h2>
+        <h2>What I learned from this UX project</h2>
       </div>
 
       <div>
@@ -251,6 +317,65 @@
           It is about understanding user needs, structuring information clearly,
           and improving the design based on feedback.
         </p>
+      </div>
+    </section>
+
+    <section id="labyrinth-game" class="section split-section">
+      <div>
+        <p class="eyebrow">Game Design / Development</p>
+        <h2>Top-Down Labyrinth Game</h2>
+      </div>
+
+      <div>
+        <p>
+          This project is a small Unity prototype where the player navigates through
+          a labyrinth from a top-down perspective. I designed the maze layout and
+          implemented the basic gameplay interactions in C#.
+        </p>
+
+        <p>
+          The project helped me explore how code, spatial design, player movement,
+          and interaction design come together in a playable experience.
+        </p>
+
+        <div class="info-grid">
+          <div class="info-card">
+            <h3>My Role</h3>
+            <p>Game designer and developer</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Tools</h3>
+            <p>Unity, C#</p>
+          </div>
+
+          <div class="info-card">
+            <h3>Focus</h3>
+            <p>Player movement, collision, level design, and gameplay logic</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <p class="eyebrow">Skills</p>
+      <h2>What I work with</h2>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>UX & Product Design</h3>
+          <p>User flows, wireframes, prototyping, usability-focused thinking, Figma</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Computer Science</h3>
+          <p>Programming, algorithms, problem solving, structured technical thinking</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Creative Coding</h3>
+          <p>Unity, C#, interactive prototypes, game mechanics, level design</p>
+        </div>
       </div>
     </section>
 
@@ -273,28 +398,30 @@
   <footer>
     <p>© 2026 Vanessa Lu</p>
   </footer>
-<script>
-  const themeToggle = document.getElementById("theme-toggle");
-  const body = document.body;
 
-  const savedTheme = localStorage.getItem("theme");
+  <script>
+    const themeToggle = document.getElementById("theme-toggle");
+    const body = document.body;
 
-  if (savedTheme === "dark") {
-    body.classList.add("dark-mode");
-    themeToggle.textContent = "☀️";
-  }
+    const savedTheme = localStorage.getItem("theme");
 
-  themeToggle.addEventListener("click", () => {
-    body.classList.toggle("dark-mode");
-
-    if (body.classList.contains("dark-mode")) {
-      localStorage.setItem("theme", "dark");
+    if (savedTheme === "dark") {
+      body.classList.add("dark-mode");
       themeToggle.textContent = "☀️";
-    } else {
-      localStorage.setItem("theme", "light");
-      themeToggle.textContent = "🌙";
     }
-  });
-</script>
+
+    themeToggle.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+
+      if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+        themeToggle.textContent = "☀️";
+      } else {
+        localStorage.setItem("theme", "light");
+        themeToggle.textContent = "🌙";
+      }
+    });
+  </script>
+
 </body>
 </html>
