@@ -475,19 +475,12 @@ body.dark-mode .theme-toggle {
   background: var(--card-background);
 }
 
-.project-image-placeholder {
-  min-height: 220px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--muted-background);
-}
-
 .project-image {
   width: 100%;
-  height: 240px;
-  object-fit: cover;
+  height: 200px;
+  object-fit: contain;
   display: block;
+  backgroun: #111;
 }
 
 .project-card-content {
