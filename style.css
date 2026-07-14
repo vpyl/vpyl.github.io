@@ -477,10 +477,10 @@ body.dark-mode .theme-toggle {
 
 .project-image {
   width: 100%;
-  height: 200px;
-  object-fit: contain;
+  height: 260px;
+  object-fit: cover;
   display: block;
-  backgroun: #111;
+  border-radius: 18px;
 }
 
 .project-card-content {
