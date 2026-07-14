@@ -529,6 +529,16 @@ body.dark-mode .theme-toggle {
   }
 }
 
+@media (max-width: 800px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-image {
+    height: 220px;
+  }
+}
+
 @media (max-width: 650px) {
   .navbar {
     align-items: flex-start;
