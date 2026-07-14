@@ -1,1 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Digital Fridge Friend | Vanessa Lu</title>
+  <meta 
+    name="description" 
+    content="UX and HCI case study for Digital Fridge Friend, an AI-powered recipe assistant."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Vanessa Lu</a>
+
+    <div class="nav-right">
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="theme-toggle" aria-label="Switch between light and dark mode">
+        🌙
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <img 
+      src="src/images/DFF%20preview.png" 
+      alt="Digital Fridge Friend app screen mockups" 
+      class="hero-image"
+    />
+
+    <div class="hero-content">
+      <p class="eyebrow">UX / HCI Case Study</p>
+      <h1>Digital Fridge Friend</h1>
+
+      <p class="hero-description">
+        An AI-powered recipe assistant designed to help users manage ingredients,
+        receive personalized recipe suggestions, and reduce food waste.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="index.html#projects" class="button secondary-button">Back to projects</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <p class="eyebrow">Overview</p>
+      <h2>Project summary</h2>
+
+      <p class="large-text">
+        Digital Fridge Friend is a university HCI project focused on simplifying
+        household ingredient management and recipe discovery through an intuitive,
+        AI-supported app concept.
+      </p>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>My Role</h3>
+          <p>UX research, user journey, wireframing, prototyping, usability testing, data analysis</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Tools</h3>
+          <p>Figma, FigJam, SUS, think-aloud study, interviews</p>
+        </div>
+
+        <div class="info-card">
+          <h3>Context</h3>
+          <p>Human-Computer Interaction university project at TU Berlin</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">Problem</p>
+        <h2>The challenge</h2>
+      </div>
+
+      <div>
+        <p>
+          Many young adults struggle to decide what to cook when they have limited
+          ingredients, little time, dietary restrictions, or fitness goals.
+        </p>
+
+        <p>
+          Manual recipe searches can be inefficient and overwhelming. The goal was
+          to design an assistant that turns existing ingredients into relevant,
+          personalized recipe suggestions.
+        </p>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">Target Group</p>
+        <h2>Who the app is for</h2>
+      </div>
+
+      <div>
+        <p>
+          The target audience was young adults with busy lifestyles, dietary
+          restrictions, fitness goals, and an interest in healthier everyday cooking.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Design Process</p>
+      <h2>From idea to prototype</h2>
+
+      <div class="process-grid">
+        <div class="process-card">
+          <span>01</span>
+          <h3>User journey</h3>
+          <p>
+            I explored the user journey from recipe search to app usage, focusing
+            on everyday cooking needs and user goals.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <span>02</span>
+          <h3>Low-fi and mid-fi sketches</h3>
+          <p>
+            I designed early app screens for login, recipe suggestions, profile
+            settings, favorites, search, and navigation.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <span>03</span>
+          <h3>Prototype</h3>
+          <p>
+            I created a prototype with ingredient interactions, checkbox choices,
+            camera access, and scrollable recipe instructions.
+          </p>
+        </div>
+
+        <div class="process-card">
+          <span>04</span>
+          <h3>Testing and iteration</h3>
+          <p>
+            I evaluated the prototype using task completion, think-aloud feedback,
+            interviews, SUS scores, and error rate analysis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">Research</p>
+        <h2>Usability testing</h2>
+      </div>
+
+      <div>
+        <p>
+          The prototype was tested with four participants from the target group.
+          They completed two tasks while sharing their thoughts through a
+          think-aloud study.
+        </p>
+
+        <p>
+          After the tasks, participants took part in interviews and evaluated the
+          app experience. The research focused on usability, efficiency, user
+          satisfaction, task completion, errors, and navigation issues.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Findings</p>
+      <h2>What the testing showed</h2>
+
+      <div class="info-grid">
+        <div class="info-card">
+          <h3>Positive feedback</h3>
+          <p>
+            Participants liked the overall ease of use, layout, and helpfulness of the features.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>Pain points</h3>
+          <p>
+            Some users struggled with navigation, especially around the sidebar and main menu.
+          </p>
+        </div>
+
+        <div class="info-card">
+          <h3>Improvements</h3>
+          <p>
+            Users suggested clearer labels, better navigation, home buttons, and more ingredient information.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">Iteration</p>
+        <h2>Refining the prototype</h2>
+      </div>
+
+      <div>
+        <p>
+          Based on the research findings, the prototype was refined to improve
+          clarity and navigation. Dedicated buttons were added to the home bar,
+          the sidebar was repositioned, and visual clarity was improved.
+        </p>
+
+        <p>
+          Additional feature ideas included nutrient information and a recipe
+          randomizer. Larger features such as a tracker or recipe-sharing system
+          were left as future possibilities.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">Visuals</p>
+      <h2>Prototype screens</h2>
+
+      <div class="screens-grid">
+        <img 
+          src="src/images/DFF%20preview.png" 
+          alt="Digital Fridge Friend app mockup" 
+          class="project-image"
+        />
+
+        <div class="screen-placeholder">
+          <p>Add user journey screenshot</p>
+        </div>
+
+        <div class="screen-placeholder">
+          <p>Add research findings screenshot</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">Reflection</p>
+        <h2>What I learned</h2>
+      </div>
+
+      <div>
+        <p>
+          This project showed me how important clear navigation and feature clarity
+          are for a smooth user experience.
+        </p>
+
+        <p>
+          I also learned that usability testing can reveal problems that are not
+          obvious during the design phase, especially when users interact with the
+          prototype in unexpected ways.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Vanessa Lu</p>
+  </footer>
+
+  <script>
+    const themeToggle = document.getElementById("theme-toggle");
+    const body = document.body;
+
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+      body.classList.add("dark-mode");
+      themeToggle.textContent = "☀️";
+    }
+
+    themeToggle.addEventListener("click", () => {
+      body.classList.toggle("dark-mode");
+
+      if (body.classList.contains("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+        themeToggle.textContent = "☀️";
+      } else {
+        localStorage.setItem("theme", "light");
+        themeToggle.textContent = "🌙";
+      }
+    });
+  </script>
+
+</body>
+</html>
