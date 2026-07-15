@@ -493,6 +493,26 @@ body.dark-mode .theme-toggle {
   margin-bottom: 1rem;
 }
 
+.project-hero {
+  padding-top: 5rem;
+  min-height: auto;
+}
+
+.project-hero .hero-image {
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 28px;
+}
+
+.project-hero .hero-content {
+  padding-top: 2rem;
+}
+
+.project-hero h1 {
+  font-size: clamp(3rem, 7vw, 5.5rem);
+}
+
 @media (max-width: 800px) {
   .project-grid {
     grid-template-columns: 1fr;
