@@ -500,9 +500,10 @@ body.dark-mode .theme-toggle {
 
 .project-hero .hero-image {
   height: 360px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   border-radius: 28px;
+  background: #111;
 }
 
 .project-hero .hero-content {
